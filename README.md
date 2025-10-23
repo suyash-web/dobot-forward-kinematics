@@ -50,17 +50,6 @@ T_i^{i-1} = [
 
 ---
 
-## 👨‍💻 Author
-
-Created by:
-- **Divya Ganesan**
-- **Thayaananthan Kanagaraj**
-- **Suyash Dhir**
-
-For educational use in RAS545 – *Robotic Systems 1*.
-
----
-
 ## 📜 License
 
 Free to use for educational and research purposes.
