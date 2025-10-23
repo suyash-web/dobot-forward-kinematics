@@ -41,15 +41,12 @@ The script will output the computed transformation matrix and end-effector coord
 
 Each joint transformation follows the **DH convention**:
 
-\[
-T_i^{i-1} =
-\begin{bmatrix}
-\cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\theta_i\sin\alpha_i & a_i\cos\theta_i \\
-\sin\theta_i & \cos\theta_i\cos\alpha_i & -\cos\theta_i\sin\alpha_i & a_i\sin\theta_i \\
-0 & \sin\alpha_i & \cos\alpha_i & d_i \\
-0 & 0 & 0 & 1
-\end{bmatrix}
-\]
+T_i^{i-1} = [
+ [cosθᵢ, -sinθᵢcosαᵢ,  sinθᵢsinαᵢ,  aᵢcosθᵢ],
+ [sinθᵢ,  cosθᵢcosαᵢ, -cosθᵢsinαᵢ,  aᵢsinθᵢ],
+ [0,      sinαᵢ,       cosαᵢ,       dᵢ],
+ [0,      0,            0,           1]
+]
 
 ---
 
